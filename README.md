@@ -1,5 +1,6 @@
 # GNL-Arena-Tester
 For warior who seek power --- come and confront yourself to my GNL and more...
+![ARENA](arena.jpg)
 
 ## HOW TO USE IT
 
@@ -15,8 +16,8 @@ For warior who seek power --- come and confront yourself to my GNL and more...
 4. \(optional) 
 - if you don't whant to compete VS my get_next_line (who's gonna blame ya ?) you cant put an other one in *GNL-Arena-Tester/validated-gnls/abaudot*
 - 4.1 \(do somthinf like that)
-- rm -f *.c GNL-Arena-Tester/validated-gnls/abaudot && rm -f *.h GNL-Arena-Tester/validated-gnls/abaudot
-- cp -rf ../my_friend_get_next_line GNL-Arena-Tester/validated-gnls/abaudot
+- ```rm -f *.c GNL-Arena-Tester/validated-gnls/abaudot && rm -f *.h GNL-Arena-Tester/validated-gnls/abaudot```
+- ```cp -rf ../my_friend_get_next_line GNL-Arena-Tester/validated-gnls/abaudot```
 
 5. ./bencher.sh [x][y]
   - where x is the BUFFER_SIZE (by default BUFFER_SIZE=42)
