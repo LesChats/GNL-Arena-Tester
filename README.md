@@ -1,6 +1,6 @@
 # GNL-Arena-Tester
-For warior who seek power --- come and confront yourself to my GNL and more... 🤺!
-[ARENA](arena.jpg)
+For warior who seek power --- come and confront yourself to my GNL and more... 🤺
+![ARENA](arena.jpg)
 
 ## HOW TO USE IT
 
@@ -24,9 +24,9 @@ For warior who seek power --- come and confront yourself to my GNL and more... �
   - where y is the number of tests (by default y = 100)
   - be carfull the more y is big the more the bench is precise but it may take a lot of time...
 
-## WHAT YOU GET
+## WHAT YOU GET 🤺
 
 - **Pride** 🏌️‍ or **disnonor** 💩  !
--It can also help to test your get_next_line implementation because it output the biff bettwen my validated GNL and yours ;) 
+- It can also help to test your get_next_line implementation because it output the biff bettwen my validated GNL and yours ;) 
 - please send me a message or mail if you really beat me ;)
   
