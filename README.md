@@ -6,7 +6,7 @@ For warior who seek power --- come and confront yourself to my GNL and more... ð
 
 
 1. ```git clone https://github.com/LesChats/GNL-Arena-Tester.git```
-  - you can clone this repo everywhere, by defaut in your own get_next_line directory...
+  - you can clone this repo anywhere, by defaut in your own get_next_line directory...
 
 2. ```cd GNL-Arena-Tester```
 
