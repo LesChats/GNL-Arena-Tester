@@ -95,24 +95,36 @@ TIME_DIFF=`echo "scale=1; $TIME_1 - $TIME_2 " | bc`
 #clean
 rm time1.txt time2.txt test_mine test_abaudot out1.txt out2.txt
 rm generate_test
-
+rm -rf tests
+if [ 1 -eq "$(echo "${MAX_TEST} < 45" | bc)" ]
+then
+	echo""
+	echo "carfull whit the result, the numbers of test is low"
+	echo ""
+fi
 echo ""
-echo "-------------------------------------------------------------------"
-echo "-------------- BENCH TIME -----------------------------------------"
-echo "-------------------------------------------------------------------"
+echo "  *                                                              *"
+echo " *                                                                *"
+echo "*-------- WARRIORS -------------------------------------------------*"
+echo "*----------------------- IS ----------------------------------------*"
+echo "*------------------------------- BENCH TIME ------------------------*"
+echo " *                                                                *"
+echo "  *                                                              *"
 echo ""
 echo ""
 if [ 1 -eq "$(echo "${TIME_DIFF} > 0.1" | bc)" ]
 then 
-	echo "You lose !! :( :( (try again ?)"
-	echo "your time = $TIME_1"
+	echo "MouAHAHAHAHAH ....."
+	echo "You lose $USER !! :( :( (try again ?)"
+	echo "$USER time = $TIME_1"
 	echo "abaudot time = $TIME_2"
 	echo "diff = $TIME_DIFF"
 elif [ 1 -eq "$(echo "${TIME_DIFF} < -0.1" | bc)" ]
 then
-	echo "You WIN OMG !!!!!"
+	echo "..."
+	echo " $USER You WIN OMG !!!!! :O"
 	echo ""
-	echo "your time = $TIME_1"
+	echo "$USER time = $TIME_1"
 	echo "abaudot time = $TIME_2"
 	echo "diff = $TIME_DIFF"
 	echo ""
@@ -121,13 +133,14 @@ then
 	echo "aimebaudot@gmail.com"
 else
 	echo "great job, no one win this time"
-	echo "your time = $TIME_1"
+	echo "$USER time = $TIME_1"
 	echo "abaudot time = $TIME_2"
 	echo "diff = $TIME_DIFF"
-	echo ""	
+	echo ""
 	echo "the diff is not significative (aleas)"
+	echo "maybe you should incresse the file number to test"
 fi
-
+echo ""
 # add some space in diffs for the next set of tests
 if [ $NUM_DIFFS -gt 0 ]
 then
