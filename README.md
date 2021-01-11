@@ -25,6 +25,7 @@ For warior who seek power --- come and confront yourself to my GNL and more...
 
 ## WHAT YOU GET
 
-**Pride** or **disnonor** ! 
-It can also help to test your get_next_line implementation because it output the biff bettwen my validated GNL and yours ;) 
+-**Pride** or **disnonor** ! 
+-It can also help to test your get_next_line implementation because it output the biff bettwen my validated GNL and yours ;) 
+- please send me a message or mail if you really beat me ;)
   
