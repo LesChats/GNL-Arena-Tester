@@ -24,7 +24,7 @@ compare() {
 		fi
 		echo "Diff detected:" >> diffs.txt
 		echo "Test information:" >> diffs.txt
-		cat tests/test_$TEST_NUM.txt.info > diffs.txt
+		cat tests/test_$TEST_NUM.txt.info >> diffs.txt
 		echo "My output:" >> diffs.txt
 		cat out1.txt >> diffs.txt
 		echo "abaudot's output:" >> diffs.txt
